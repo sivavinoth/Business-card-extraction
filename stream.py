@@ -156,7 +156,7 @@ if selected == "Image":
                         result_table = (i[0], i[1], i[2], i[3], i[4], i[5], i[6], i[7])
                         mycursor.execute(A, result_table)
                         mydb.commit()
-                        st.success('SUCCESSFULLY UPLOADED', icon="✅")
+                        st.success('SUCCESSFULLY UPLOADED')
         else:
             col1, col2 = st.columns([4, 4])
             with col1:
