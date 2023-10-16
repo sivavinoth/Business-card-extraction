@@ -185,6 +185,6 @@ if selected == "Image":
                     f"DELETE FROM BUSINESS_CARD WHERE NAME = '{name_selected}' AND DESIGNATION = '{designation_selected}'")
                 mydb.commit()
                 if remove:
-                    st.warning('DELETED', icon="⚠️")
+                    st.warning('DELETED')
     else:
         st.write("Upload an image")
